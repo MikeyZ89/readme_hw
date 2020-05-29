@@ -14,6 +14,16 @@ function writeFile(filename, data) {
 inquirer
   .prompt([
     {
+      name: "github",
+      type: "input",
+      message: "What is your GitHub username?",
+    },
+    {
+      name: "repoName",
+      type: "input",
+      message: "What is your GitHub repo name?",
+    },
+    {
       name: "title",
       type: "input",
       message: "Title of the project?",
@@ -29,24 +39,19 @@ inquirer
       message: "Description of the project?",
     },
     {
-      name: "installation",
-      type: "input",
-      message: "Steps required to install the project?",
-    },
-    {
       name: "contributing",
       type: "input",
       message: "Who were contributors on the project?",
     },
     {
-      name: "github",
+      name: "license",
       type: "input",
-      message: "What is your GitHub username?",
+      message: "License on the project?",
     },
     {
-      name: "repoName",
+      name: "installation",
       type: "input",
-      message: "What is your GitHub repo name?",
+      message: "Steps required to install the project?",
     },
     {
       name: "usage",
@@ -59,14 +64,9 @@ inquirer
       message: "Examples of tests?",
     },
     {
-      name: "license",
-      type: "input",
-      message: "What is your license?",
-    },
-    {
       name: "question1",
       type: "input",
-      message: "What is your GitHub proflie picture?",
+      message: "Personal comments on the product?",
     },
     {
       name: "question2",
@@ -87,10 +87,10 @@ inquirer
   ## Contents:
   * [Authors](#authors)
   * [Description](#description)
+  * [Contributing](#contributing)
+  * [License](#license)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
-  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions) 
 
@@ -100,17 +100,17 @@ inquirer
   ## Description:
   ${user.description}
 
+  ## Contributing:
+  ${user.contributing}
+
+  ## License:
+  ${user.license} 
+
   ## Installation:
   ${user.installation}
 
   ## Usage:
   ${user.usage}
-
-  ## License:
-  ${user.license} 
-
-  ## Contributing:
-  ${user.contributing}
 
   ## Tests:
   ${user.tests}
