@@ -16,27 +16,27 @@ inquirer
     {
       name: "title",
       type: "input",
-      message: "What is the title of your project?",
+      message: "Title of the project?",
+    },
+    {
+      name: "authors",
+      type: "input",
+      message: "Who was the Author on the project?",
     },
     {
       name: "description",
       type: "input",
-      message: "What is the description of the project?",
+      message: "Description of the project?",
     },
     {
       name: "installation",
       type: "input",
-      message: "What are the steps required to install your project?",
-    },
-    {
-      name: "license",
-      type: "input",
-      message: "What is your license?",
+      message: "Steps required to install the project?",
     },
     {
       name: "contributing",
       type: "input",
-      message: "Who are the contributors on this project?",
+      message: "Who were contributors on the project?",
     },
     {
       name: "github",
@@ -51,12 +51,17 @@ inquirer
     {
       name: "usage",
       type: "input",
-      message: "Provide instructions for use of your project",
+      message: "How do you use the product?",
     },
     {
       name: "tests",
       type: "input",
-      message: "Insert Examples of tests",
+      message: "Examples of tests?",
+    },
+    {
+      name: "license",
+      type: "input",
+      message: "What is your license?",
     },
     {
       name: "question1",
@@ -73,36 +78,44 @@ inquirer
     console.log(user);
     const template = `
   # ${user.title}
-  ## Description
-  ${user.description}
 
-  ![GitHub repo size](https://img.shields.io/github/repo-size/${user.github}/${user.repoName})
+  ![GitHub last commit](https://img.shields.io/github/last-commit/${user.github}/${user.repoName}) 
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/${user.github}/${user.repoName}) ![GitHub followers](https://img.shields.io/github/followers/${user.github}) 
+  ![GitHub repo size](https://img.shields.io/github/repo-size/${user.github}/${user.repoName}) 
+  ![GitHub](https://img.shields.io/github/license/${user.github}/${user.repoName})
 
-  ## Table of Contents
+  ## Contents:
+  * [Authors](#authors)
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Test](#tests)
+  * [Tests](#tests)
   * [Questions](#questions) 
 
-  ## Installation
+  ## Authors:
+  ${user.authors}
+
+  ## Description:
+  ${user.description}
+
+  ## Installation:
   ${user.installation}
 
-  ## Usage
+  ## Usage:
   ${user.usage}
 
-  ## License
+  ## License:
   ${user.license} 
 
-  ![GitHub](https://img.shields.io/github/license/${user.github}/${user.repoName})
-
-  ## Contributing
+  ## Contributing:
   ${user.contributing}
 
-  ## Tests
+  ## Tests:
+  ${user.tests}
 
-  ## Questions
+  ## Questions:
   * ${user.question1}
   * ${user.question2}
 

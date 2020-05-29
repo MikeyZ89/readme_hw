@@ -1,36 +1,44 @@
 
   # readme_hw
-  ## Description
-  create a readme page using node.js
 
-  ![GitHub repo size](https://img.shields.io/github/repo-size/MikeyZ89/readme_hw)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/MikeyZ89/readme_hw) 
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/MikeyZ89/readme_hw) ![GitHub followers](https://img.shields.io/github/followers/MikeyZ89) 
+  ![GitHub repo size](https://img.shields.io/github/repo-size/MikeyZ89/readme_hw) 
+  ![GitHub](https://img.shields.io/github/license/MikeyZ89/readme_hw)
 
-  ## Table of Contents
+  ## Contents:
+  * [Authors](#authors)
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Test](#tests)
+  * [Tests](#tests)
   * [Questions](#questions) 
 
-  ## Installation
-  build individual sections that prompt the user for information to then be formatted in standard readme 
+  ## Authors:
+  mz
 
-  ## Usage
-  open terminal inside of index.js file, use command node index.js and press enter answer the prompted questions
+  ## Description:
+  na
 
-  ## License
+  ## Installation:
+  na
+
+  ## Usage:
+  na
+
+  ## License:
   MIT 
 
-  ![GitHub](https://img.shields.io/github/license/MikeyZ89/readme_hw)
+  ## Contributing:
+  mz
 
-  ## Contributing
-  mike
+  ## Tests:
+  na
 
-  ## Tests
-
-  ## Questions
-  * readme
-  * readme
+  ## Questions:
+  * na
+  * mz
 
     
