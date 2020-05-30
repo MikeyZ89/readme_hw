@@ -16,30 +16,34 @@
   * [Usage](#usage)
   * [Tests](#tests)
   * [Questions](#questions) 
+  * [VIDEOLINK](#videolink)
 
   ## Authors:
   Mike Zlotkowski
 
   ## Contributing:
-  NA
+  No other contributors
 
   ## Acknowledgments:
-  undefined
+  No other acknowledgments
 
   ## Description:
-  ReadMe Generator
+  ReadMe Generator - this is a readme.md generator that creates a newReadme.md file for any product or project you are working on. Simplifying this part of a necessary process with ease.
 
   ## Installation:
-  node.js modules, npm packages, commands
+  Installed to run this program: node.js modules, npm packages, command line prompted questions.
 
   ## Usage:
-  start with command "node index.js" and follow prompted questions about your product
+  start with command "node index.js" and follow prompted questions about your product to complete the basic formatting of your project readme.md file.
 
   ## Tests:
-  na
+  In-Class and At-Home along with collaboration amongst students.
 
   ## Questions:
   * Contact Me @: michael.zlotkowski@gmail.com
   * Comments: readme generator that ill be using in the future.
 
-    
+  ## VIDEOLINK: 
+  [![Watch the video](/youtube_preview_image.png)](https://www.youtube.com/watch?v=alsJh6aGVjU&t=1s)
+
+  * All gif converters have failed me, enjoy the link to the full length video on YouTube.

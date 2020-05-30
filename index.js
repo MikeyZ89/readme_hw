@@ -116,5 +116,5 @@ inquirer
   * Comments: ${user.question2}
 
     `;
-    writeFile("README.md", template);
+    writeFile("newREADME.md", template);
 });
