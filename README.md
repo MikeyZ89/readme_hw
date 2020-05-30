@@ -21,25 +21,25 @@
   Mike Zlotkowski
 
   ## Contributing:
-  and Company
+  NA
 
   ## Acknowledgments:
   undefined
 
   ## Description:
-  readme generator
+  ReadMe Generator
 
   ## Installation:
-  node.js modules, npm packages, command
+  node.js modules, npm packages, commands
 
   ## Usage:
-  intiate command "node index.js" follow prompted questions about your product
+  start with command "node index.js" and follow prompted questions about your product
 
   ## Tests:
   na
 
   ## Questions:
-  * Contact Me: michael.zlotkowski@gmail.com
-  * Comments: easy peasy
+  * Contact Me @: michael.zlotkowski@gmail.com
+  * Comments: readme generator that ill be using in the future.
 
     
