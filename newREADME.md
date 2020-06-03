@@ -1,11 +1,11 @@
 
-  # code_quiz
+  # template_engine_employee_summary
 
-  ![GitHub last commit](https://img.shields.io/github/last-commit/MikeyZ89/code_quiz) 
-  ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/MikeyZ89/code_quiz) 
+  ![GitHub last commit](https://img.shields.io/github/last-commit/MikeyZ89/template_engine_employee_summary) 
+  ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/MikeyZ89/template_engine_employee_summary) 
   ![GitHub followers](https://img.shields.io/github/followers/MikeyZ89) 
-  ![GitHub repo size](https://img.shields.io/github/repo-size/MikeyZ89/code_quiz) 
-  ![GitHub](https://img.shields.io/github/license/MikeyZ89/code_quiz)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/MikeyZ89/template_engine_employee_summary) 
+  ![GitHub](https://img.shields.io/github/license/MikeyZ89/template_engine_employee_summary)
 
   ## Contents:
   * [Authors](#authors)
@@ -18,28 +18,28 @@
   * [Questions](#questions) 
 
   ## Authors:
-  mz
+  Mike Zlotkowski
 
   ## Contributing:
-  no company
+  Na
 
   ## Acknowledgments:
   undefined
 
   ## Description:
-  code quiz
+  Template Engine - creating an employee summary
 
   ## Installation:
-  build it
+  terminal based program, prompted commands
 
   ## Usage:
-  garbage
+  start with command line "node app.js" follow prompted questions.
 
   ## Tests:
-  na
+  employee test, engineer test, intern test, manager test.
 
   ## Questions:
-  * Contact Me @: na
-  * Comments: na
+  * Contact Me @: michael.zlotkowski@gmail.com
+  * Comments: Nice fast way to build out the basic structure of a company hierarchy.
 
     
