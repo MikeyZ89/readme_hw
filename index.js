@@ -112,6 +112,7 @@ inquirer
   ${user.tests}
 
   ## Questions:
+  * GitHub Profile: ${user.github}
   * Contact Me @: ${user.question1}
   * Comments: ${user.question2}
 
