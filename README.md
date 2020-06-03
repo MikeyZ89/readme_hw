@@ -45,6 +45,6 @@
   * Comments: readme generator that ill be using in the future.
 
   ## VIDEOLINK: 
-  [![Watch the video](/youtube_preview_image.png)](https://www.youtube.com/watch?v=alsJh6aGVjU&t=1s)
+  [![Watch the video](./youtube_preview_image.png)](https://www.youtube.com/watch?v=alsJh6aGVjU&t=1s)
 
   * All gif converters have failed me, enjoy the link to the full length video on YouTube.
