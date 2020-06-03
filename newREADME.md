@@ -39,6 +39,7 @@
   employee test, engineer test, intern test, manager test.
 
   ## Questions:
+  * GitHub Profile: MikeyZ89
   * Contact Me @: michael.zlotkowski@gmail.com
   * Comments: Nice fast way to build out the basic structure of a company hierarchy.
 
